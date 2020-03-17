@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  text-align: left;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 51px;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 72px;
+  letter-spacing: -1.5px;
+}
+#purple {
+  color: #9fa4af;
+}
+h7 {
+  color: #4f4f6f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 72px;
+  letter-spacing: -1.5px;
+}
+
+blockquote {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.btn-outline-secondary {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: white;
+  border-color: white;
+  border-radius: 25px;
+  padding: 15px 30px;
+}
+
+.btn-outline-secondary:hover {
+  background: white;
+  color: #c2c9db;
+  border-color: white;
+}
+
+.btn-primary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #6e45e2;
+  color: white;
+  border-radius: 25px;
+  border-color: #6e45e2;
+  padding: 15px 30px;
+  box-shadow: none;
+}
+
+/* Should the primary button default to white? */
+.btn-primary:hover {
+  background: #6e45e2;
+  color: white;
+  border-color: #6e45e2;
+}
+
+.btn-secondary {
+  
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: white;
+  color: #c2c9db;
+  border-radius: 25px;
+  border-color: white;
+  padding: 15px 30px;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.25);
+}
+
+.btn-secondary:hover {
+  background: #4dc2c4;
+  color: white;
+  border-color: #4dc2c4;
+  box-shadow: none;
+}
+
+.btn-down {
+  position: absolute;
+  left: 50%;
+  margin-left: -32px;
+  bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  background: white;
+  color: #a4a4a5;
+  border-radius: 32px;
+  border-color: white;
+  width: 64px;
+  height: 64px;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.25);
+}
+
+.btn-down:hover {
+  background: #4dc2c4;
+  color: white;
+  border-color: #4dc2c4;
+  box-shadow: none;
+}
+
+header h5,
+header h6,
+footer h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 29px;
+  letter-spacing: 6.6px;
+  margin-left: 18px;
+}
+
+header nav a,
+footer nav a {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+header nav a:hover,
+footer nav a:hover {
+  text-decoration: none;
+}
+
+header nav a:hover::after,
+footer nav a:hover::after,
+header nav a.active::after,
+footer nav a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: white;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: white;
+}
+
+header nav a {
+  color: white;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+main {
+  color: white;
+}
+
+main h5,
+main h6 {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 13.5px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+main h5::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: -40px;
+  width: 24px;
+  height: 1px;
+  background: white;
+}
+
+main #purple::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: -40px;
+  width: 24px;
+  height: 1px;
+  background: #00a5c2;
+}
+
+main p {
+  margin-bottom: 2rem;
+}
+#graytext {
+  color: #9fa4af;
+  font-size: 20px;
+}
+.jumbotron {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 56.25%;
+  background: url(../images/tor1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+  border-radius: 0;
+}
+.su {
+  background: url(../images/SU.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+}
+.background {
+  background: url(../images/fitcheck.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+}
+.jumbotron .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.jumbotron .container .btn {
+  min-width: 190px;
+}
+
+.jumbotron .row {
+  height: 100%;
+}
+
+.jumbotron .col {
+  max-width: 400px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  padding-top: 1rem;
+  color: #37374a;
+}
+
+footer nav a {
+  color: #6a6a77;
+}
+
+footer nav a:hover {
+  color: #756edc;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6a6a77;
+  opacity: 0.5;
+}
+
+footer p.social {
+  font-size: 30px;
+  line-height: 0;
+}
+
+footer p.social a {
+  color: #6a6a77;
+}
+
+footer p.social a:hover {
+  color: #00a5c2;
+}
