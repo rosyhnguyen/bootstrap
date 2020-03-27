@@ -1,12 +1,22 @@
 {
-  "name": "inm420-bootstrap",
+  "name": "bootstrap",
   "version": "1.0.0",
-  "description": "INM320 Bootstrap project",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=\"public\""
+    "lite": "lite-server",
+    "start": "npm run lite"
   },
-  "author": "Rosy",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosyhnguyen/bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosyhnguyen/bootstrap/issues"
+  },
+  "homepage": "https://github.com/rosyhnguyen/bootstrap#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
   }
